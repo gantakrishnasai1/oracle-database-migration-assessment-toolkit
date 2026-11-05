@@ -25,9 +25,5 @@ LEFT JOIN fs f ON f.tablespace_name = d.tablespace_name
 ORDER BY used_pct DESC;
 
 PROMPT === TEMPORARY TABLESPACE FILES ===
-SELECT tablespace_name, file_name,
-       ROUND(bytes/1024/1024/1024,2) current_gb,
-       autoextensible,
-       ROUND(maxbytes/1024/1024/1024,2) max_gb
-FROM   dba_temp_files
-ORDER BY tablespace_name, file_name;
+
+SELECT tablespace_name, file_name, ROUND(bytes/1024/1024/1024,2) current_gb, autoextensible, ROUND(maxbytes/1024/1024/1024,2) max_gb FROM dba_temp_files ORDER BY tablespace_name, file_name;
