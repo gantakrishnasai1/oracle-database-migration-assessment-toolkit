@@ -1,0 +1,13 @@
+{
+  "source_platform": "Synthetic on-premises Oracle environment",
+  "target_platform": "Synthetic OCI Exadata Cloud Service environment",
+  "source_version": "Oracle Database 19c (example only)",
+  "target_version": "Oracle Database 19c (example only)",
+  "summary": "Synthetic example only. Initial review indicates that inventory and sizing information is available; compatibility and performance testing remain open.",
+  "inventory": "- Example application schemas: 12\n- Example allocated data: 2.4 TB\n- Example RAC source: 2 nodes",
+  "compatibility": "- Confirm target service feature support.\n- Compare character sets, time zone file versions and COMPATIBLE.\n- Review database options and non-default parameters.",
+  "risks": "- Example: application dependency on directory objects.\n  Mitigation: inventory external files and redesign or migrate approved files.",
+  "approach": "Evaluate Data Pump and RMAN-based approaches against downtime, source/target compatibility, database size and operational constraints. Final selection requires technical validation.",
+  "validation": "- Reconcile schema/object counts and row counts.\n- Validate application connectivity and critical business flows.\n- Compare representative workload performance.\n- Obtain application-owner sign-off.",
+  "open_items": "- Confirm target shape and storage requirements.\n- Confirm network bandwidth and encryption requirements.\n- Agree downtime and rollback criteria."
+}

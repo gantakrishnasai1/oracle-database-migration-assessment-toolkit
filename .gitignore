@@ -1,0 +1,35 @@
+# Assessment output and generated files
+*.out
+*.lst
+*.log
+*.trc
+*.aud
+*.dmp
+*.dump
+*.csv
+*.xlsx
+*.html
+reports/
+output/
+tmp/
+
+# Credentials and wallet material
+*.key
+*.pem
+*.p12
+*.pfx
+*.wallet
+cwallet.sso
+ewallet.p12
+tnsnames.ora
+sqlnet.ora
+
+# Local environment
+.env
+.env.*
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+Thumbs.db
