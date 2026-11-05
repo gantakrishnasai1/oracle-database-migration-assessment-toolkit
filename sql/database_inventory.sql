@@ -1,4 +1,4 @@
--- Database inventory. Read-only. Run as an authorized assessment account.
+-- Database inventory. Run as an authorized assessment account.
 SET VERIFY OFF
 SET FEEDBACK ON
 SET PAGESIZE 100
