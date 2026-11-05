@@ -28,4 +28,4 @@ PROMPT === DATABASE LINKS (NAMES ONLY; REVIEW PRIVATELY) ===
 SELECT owner, db_link, username, host
 FROM   dba_db_links
 ORDER BY owner, db_link;
--- Do not publish this output: link names, usernames and connect descriptors may be sensitive.
+
