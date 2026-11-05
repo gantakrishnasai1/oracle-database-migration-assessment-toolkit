@@ -28,4 +28,3 @@ do
 done
 
 echo "Assessment output created under: ${OUTDIR}"
-echo "WARNING: Review and sanitize all output before sharing. Do not commit production output."
