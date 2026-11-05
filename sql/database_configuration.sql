@@ -1,4 +1,4 @@
--- Selected configuration and recovery attributes. Read-only.
+-- Selected configuration and recovery attributes.
 SET PAGESIZE 100
 SET LINESIZE 220
 
